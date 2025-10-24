@@ -1,0 +1,97 @@
+# Зависимости
+**/*.csproj.user
+**/*.sln.docstates
+**/*.cache
+**/*.vs/
+**/packages/
+**/node_modules/
+
+# Восстановление пакетов
+**/bin/
+**/obj/
+**/packages/
+
+# Логи (создаются динамически)
+**/logs/
+**/logs/**
+
+# Сборка и публикация
+**/bin/
+**/obj/
+**/publish/
+
+# Docker
+# Основные файлы сохраняем, игнорируем только временные и вспомогательные
+Dockerfile.*.tmp
+Dockerfile.*.backup
+Dockerfile.*.old
+.dockerignore
+docker-compose.*.yml  # Только override и подобные, но не основной docker-compose.yml
+.docker/
+
+# Системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+
+# IDE/Редакторы
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.dotsettings.user
+*.userprefs
+**/*.user
+.vs/
+.vscode-test/
+
+# Отладка
+.Dump/
+.Dump/**
+*.user
+*.userosscache
+*.sln.docstates
+
+# Профили запуска
+Properties/launchSettings.json
+
+# Файлы NuGet
+packages/
+*.nupkg
+# NuGet v3 cache
+~/.nuget/packages/
+# NuGet v2 cache
+~/.nuget/packages-cache/
+# NuGet v1 cache
+~/.nuget/
+
+# Visual Studio / Rider
+*.user
+*.suo
+*.userprefs
+*.sln.dotsettings.user
+*.user
+.vs/
+.vscode/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider
+.idea/
+*.dotSettings.user
+*.sln.iml
+
+# F# specific
+*.fsproj.user

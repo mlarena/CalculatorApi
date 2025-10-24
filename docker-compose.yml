@@ -1,0 +1,13 @@
+services:
+  calculator-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5111:8080"  # Хост:5111 → Контейнер:8080
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development  # Для Swagger и детального логирования
+      - ASPNETCORE_URLS=http://+:8080
+    volumes:
+      - C:/Docker_directories/logs:/app/logs  # Монтирование: хост C:\Docker_directories\logs → /app/logs в контейнере
+    restart: unless-stopped

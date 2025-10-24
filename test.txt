@@ -1,0 +1,33 @@
+{
+  "operand1": 10,
+  "operand2": 5,
+  "operation": "+"
+}
+
+{
+  "operand1": 10,
+  "operand2": 5,
+  "operation": "-"
+}
+
+
+{
+  "operand1": 10,
+  "operand2": 5,
+  "operation": "*"
+}
+
+
+{
+  "operand1": 10,
+  "operand2": 5,
+  "operation": "/"
+}
+
+for err
+
+{
+  "operand1": 10,
+  "operand2": 5,
+  "operation": "err"
+}
